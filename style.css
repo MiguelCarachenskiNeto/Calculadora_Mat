@@ -1,0 +1,144 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.campo_input{
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    text-align: center;
+    background-color: #4682B4;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    z-index: 1000;
+    margin-top: 0px;
+    top: 0px;
+}
+
+#campo_calculadora {
+    float: left;
+    margin-top: 100px;
+    margin: x0;
+}
+
+.calc {
+    background-color: #D3D3D3;
+    padding: 0px 5px 5px 5px;
+    margin: 30px;
+    outline: #808080 solid 1.5px;
+    border-radius: 8px;
+    width: 600px;
+    font-size: 30px;
+    text-align: center;
+
+    position: relative;
+}
+
+
+
+.calc label {
+    width: 235px;
+    text-align: center;
+    align-items: flex-end;
+}
+
+input {
+    scale: 1.2;
+    width: 50px;
+}
+
+div[id^="calc"] {
+    display: none;
+}
+
+div[id^="calc"]:target {
+    display: block;
+}
+
+button {
+    background-color: #4682B4;
+    padding: 4px;
+    border-radius: 5px;
+    color: white;
+    scale: 120%;
+    margin: 12px;
+    
+}
+
+button :hover {
+    transition: transform 0.1s linear;
+    transform: scale(200%);
+}
+
+#botao_selecionar {
+    display: flex;
+    float: right;
+    margin-top: 120px;
+}
+
+.botao {
+    box-shadow: 1px 1px 5px rgb(54, 53, 53);
+    border-radius: 2px;
+    scale: 160%;
+    text-align: center;
+    margin: 55px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #4682B4;
+    color: white;
+}
+
+.botao:hover {
+    transition: transform 0.1s linear;
+    transform: scale(1.2);
+}
+
+.botao:active {
+    transform: scale(1);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#campo_resultado {
+    margin-top: 100px;
+    background-color: #4682B4;
+    float: right;
+    margin: 23px;
+    width: 775px;
+    height: 100px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    resize: vertical;
+    overflow: auto;
+}
+
+#campo_resultado h3 {
+    text-align: left;
+    margin-top: 0px;
+    font-size: 25px;
+}
+
+footer {
+    text-align: center;
+    padding: 35px;
+    background-color: #000000;
+    color: gray;
+    position: fixed;
+    width: 100px;
+    bottom: 0;
+    width: 98%;
+    text-align: center;
+}
